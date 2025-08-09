@@ -48,7 +48,7 @@ return (
     <section>
       {weatherForecasts.map((forecast) => (
       <WeatherForecast 
-        key={forecast.id}
+        key={forecast}
         {...forecast}
       />
       ))}
